@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.*;
 
 public class Gravitacija {
@@ -12,6 +13,16 @@ public class Gravitacija {
 
         double a = (C*M)/((r+v)*(r+v));
 
+		izpis(v, a);
 >>>>>>> origin/ime-veje
 	}
 }
+=======
+public class Gravitacija {
+	public static void izpis(int visina, double gravitacija) {
+		System.out.println(visina);
+		System.out.println(gravitacija);
+		
+	}
+}
+>>>>>>> origin/izpis
